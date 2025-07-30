@@ -1,0 +1,12 @@
+version: '3'
+services:
+  backend:
+    image: mani67890/multi-tier-backend:1.0
+    ports:
+      - "5000:5000"
+
+  frontend:
+    image: mani67890/multi-tier-frontend:1.0
+    ports:
+      - "3000:80"
+
